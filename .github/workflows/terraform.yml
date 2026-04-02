@@ -14,7 +14,7 @@ on:
 
 env:
   # Credentials for deployment to AWS, stored as secrets in GitHub repository settings
-  AWS_ACESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+  AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
   AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
   # S3 bucket for the Terraform state file, stored as a secret in GitHub repository settings
   BUCKET_TF_STATE: ${{ secrets.BUCKET_TF_STATE }}
